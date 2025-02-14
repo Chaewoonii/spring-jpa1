@@ -12,6 +12,11 @@ spring:
       hibernate:
         format_sql: true
 
+#  따로 설정 안해도 되긴 함.
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
 logging:
   level:
     org.hibernate.SQL: debug
